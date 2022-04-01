@@ -1,0 +1,17 @@
+{
+  "name": "typescript-buildinfo-bug-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/adrienharnay/typescript-buildinfo-bug-repro.git",
+  "author": "Adrien HARNAY <adrien@harnay.me>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "rimraf": "3.0.2",
+    "typescript": "4.6.3"
+  },
+  "scripts": {
+    "lint": "tsc",
+    "lint:clean": "rimraf tsconfig.tsbuildinfo"
+  }
+}
